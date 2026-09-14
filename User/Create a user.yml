@@ -6,6 +6,12 @@ info:
 http:
   method: POST
   url: http://localhost:3000/api/users
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Ilya"
+      }
   auth: inherit
 
 settings:
