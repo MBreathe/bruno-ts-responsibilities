@@ -6,6 +6,14 @@ info:
 http:
   method: POST
   url: http://localhost:3000/api/tasks
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Vacuum",
+        "createdBy": "6aa7dd1ffcfa1d36346285ee",
+        "weight": 1
+      }
   auth: inherit
 
 settings:
