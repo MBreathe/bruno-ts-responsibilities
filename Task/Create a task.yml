@@ -10,8 +10,10 @@ http:
     type: json
     data: |-
       {
-        "title": "Vacuum2",
+        "title": "Vacuum3",
+        "description": "description",
         "createdBy": "6aa7dd1ffcfa1d36346285ee",
+        "description": "some description",
         "weight": 2
       }
   auth: inherit
